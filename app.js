@@ -55,14 +55,13 @@ const vm = new Vue({
       this.carrinho.splice(index, 1);
     },
     checarLocalStorage() {
-      if(window.localStorage.carrinho) {
+      if (window.localStorage.carrinho)
         this.carrinho = JSON.parse(window.localStorage.carrinho);
-      }
     }
   },
   watch: {
     carrinho() {
-      window.localStorage.carrinho = JSON.stringfy(this.carrinho);
+      window.localStorage.carrinho = JSON.stringify(this.carrinho);
     }
   },
   created() {
