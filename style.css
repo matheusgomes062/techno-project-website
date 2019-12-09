@@ -25,7 +25,7 @@ body {
 .header {
   display: flex;
   justify-content: space-between;
-  max-width: 900px;
+  max-width: 1000px;
   padding: 20px 0;
   margin: 0 auto;
 }
@@ -52,7 +52,7 @@ body {
 /* LISTA PRODUTOS */
 
 .produtos {
-  max-width: 900px;
+  max-width: 1000px;
   margin: 100px auto 0 auto;
 }
 
@@ -328,7 +328,7 @@ body {
 
 /* RESPONSIVO */
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 1000px) {
   #app {
     padding: 0 10px;
   }
